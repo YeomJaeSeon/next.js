@@ -1,3 +1,6 @@
+- SSR장점 + CSR 장점 = react Framework인 next.js!  
+- 간단한 클라이언트 사이드 라우팅: Link를 통해서.  
+- Link내의 태그는 기본적으로 onClick하면 라우팅되게 설정되어있음.  
 - css in js의 styled-components는 별도의 설정없이는 SSR을 기본으로하는 next.js에서 적용이안됨 - 서버에서 해당 컴포넌트 다 만들어서 클라이언트에게 주기 때문에 js로드되기전에 HTML파일만서버에서 다 만들면
 바로 클라이언트에게 제공 -> styled-components 적용안됨  
 - index.html격인 _document.js파일에서 serverStyleSheet을 설정해주면 된다.  
