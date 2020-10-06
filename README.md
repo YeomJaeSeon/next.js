@@ -9,3 +9,4 @@
 - url보다는 useRouter, withRouter  
 - query문자열로 동적 라우팅할때는 Link as의 clean url사용할수 있는데 해당 clean url은 실제로 존재하는 url이 아니므로 커스텀 서버를 지정해줘서 실제 존재하는 pages폴더내의 파일과 연결시켜주는
 작업이 필요하다.  
+- 외부 API받기 : 서버에서 미리 데이터 받아서 랜더링되게끔(next.js는 SSR이므로)하기 위한 메소드 : getInitialProps.. 이 메소드는 deprecated임.  
